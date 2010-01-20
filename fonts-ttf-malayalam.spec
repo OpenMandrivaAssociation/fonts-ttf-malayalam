@@ -1,7 +1,7 @@
 Summary:	Malayalam TrueType fonts
 Name:		fonts-ttf-malayalam
 Version:	1.0
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	GPLv2+
 URL:		http://malayalamlinux.sourceforge.net/downloads/downloads.html
 Group:		System/Fonts/True type
@@ -25,15 +25,6 @@ install -m 644 %SOURCE0 %buildroot/%{_datadir}/fonts/TTF/malayalam
 mkdir -p %{buildroot}%_sysconfdir/X11/fontpath.d/
 ln -s ../../..%_datadir/fonts/TTF/malayalam \
     %{buildroot}%_sysconfdir/X11/fontpath.d/ttf-malayalam:pri=50
-
-%post
-[ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-
-
-%postun
-if [ "$1" = "0" ]; then
-   [ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-fi
 
 %clean
 rm -fr %buildroot
