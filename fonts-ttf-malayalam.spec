@@ -8,6 +8,7 @@ Group:		System/Fonts/True type
 Source0:	http://malayalamlinux.sourceforge.net/downloads/fonts/MalOtf.ttf
 Source1:	http://malayalamlinux.sourceforge.net/downloads/COPYING
 BuildArch:	noarch
+BuildRequires: fontconfig
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
