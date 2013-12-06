@@ -1,7 +1,7 @@
 Summary:	Malayalam TrueType fonts
 Name:		fonts-ttf-malayalam
 Version:	1.0
-Release:	9
+Release:	10
 License:	GPLv2+
 Url:		http://malayalamlinux.sourceforge.net/downloads/downloads.html
 Group:		System/Fonts/True type
