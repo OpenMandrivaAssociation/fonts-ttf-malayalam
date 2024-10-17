@@ -3,7 +3,7 @@ Name:		fonts-ttf-malayalam
 Version:	1.0
 Release:	19
 License:	GPLv2+
-Url:		http://malayalamlinux.sourceforge.net/downloads/downloads.html
+Url:		https://malayalamlinux.sourceforge.net/downloads/downloads.html
 Group:		System/Fonts/True type
 Source0:	http://malayalamlinux.sourceforge.net/downloads/fonts/MalOtf.ttf
 Source1:	http://malayalamlinux.sourceforge.net/downloads/COPYING
